@@ -1,8 +1,15 @@
 <!--Manages content display - contains an array of currently displayed content-->
 <!--Uses a singleton to write data to the overlay-->
 
-<p>content-tileset works!</p>
+<p>Hey howdy hey</p>
 
-<div id="overlay">
-  <div markdown [src]: {{ currentContent }}></div>
+<div id="overlay" *ngIf = shouldShowModal>
+  <h1> HELLO IT'S ME</h1>
+  <button (click) = "deselectContent()"> CLOSE ME </button>
+  <div markdown [src]="'./dictionaries/content/0_EOTW_tabletop.md'">Markdown goes here</div>
+</div>
+
+<div *ngFor = "let content of contentsAll" (click)="selectContent(content)">
+  <span>{{content.id}}</span>
+  <img [src] = "content.img">
 </div>
