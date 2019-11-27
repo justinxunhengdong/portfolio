@@ -42,6 +42,21 @@ export class ContentTilesetComponent implements OnInit {
     this.shouldShowModal = false;
   }
 
+  /* Content Additional Methods */
+  getNextContentLocation() {
+
+    this.contentsAll.forEach((content, index) => {
+      if (content.id === this.currentlySelected.id) {
+        console.log(this.currentlySelected);
+        if (index + 1 === this.contentsAll.length) {
+          this.currentlySelected = this.contentsAll[0];
+        }
+
+        this.currentlySelected = this.contentsAll[index + 1];
+      }
+    });
+  }
+
   /* Filters */
 
   returnCorrespondingFilters(content: Content): string[] {

@@ -9,11 +9,13 @@
 }
 
 .thumbnail{
-
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .tile{
   background-color: red;
-  height: 150px;
   display: inline-block;
+  position: relative;
+
 }

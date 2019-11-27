@@ -8,19 +8,17 @@
   <button (click) = "deselectContent()"> CLOSE ME </button>
   <div markdown [src]="currentlySelected.postLocation">Loading Content...</div>
 
+  <a (click)="getNextContentLocation()"><button>next</button></a>
 </div>
 
 <!--Tile-->
 <div class="container-fluid">
   <div class="row">
-    <div *ngFor = "let content of contentsAll" (click)="selectContent(content)" class="col-md-3">
-      <span class = "tile">
+    <div *ngFor = "let content of contentsAll" (click)="selectContent(content)" class="col-md-3 tile">
         <span>{{content.id}}</span>
 
         <img [src] = "content.img" class = "thumbnail" [attr.alt] = "content.title + ' thumbnail'">
 
         <span class = "filters">{{returnCorrespondingFilters(content)}}</span>
-      </span>
-    </div>
     </div>
 </div>
