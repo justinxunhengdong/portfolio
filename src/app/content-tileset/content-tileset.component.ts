@@ -1,23 +1,19 @@
 import { Component, OnInit, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Content } from '../../dictionaries/datatypes/content-type';
-import { Filter } from '../../dictionaries/datatypes/filter-type';
-import { CONTENTS } from '../../dictionaries/content-dict';
-import { FILTERS } from '../../dictionaries/filter-dict';
-import { MarkdownModule } from 'ngx-markdown';
-
-@NgModule({
-imports: [
-  MarkdownModule.forRoot()
-]
-})
+import { Content } from 'dictionaries/datatypes/content-type';
+import { Filter } from 'dictionaries/datatypes/filter-type';
+import { CONTENTS } from 'dictionaries/content-dict';
+import { FILTERS } from 'dictionaries/filter-dict';
+import * as MarkdownModule from 'ngx-markdown';
 
 @Component({
   selector: 'app-content-tileset',
   templateUrl: './content-tileset.component.html',
   styleUrls: ['./content-tileset.component.css']
 })
+
+
 export class ContentTilesetComponent implements OnInit {
 
   currentlySelected: Content;
@@ -38,13 +34,32 @@ export class ContentTilesetComponent implements OnInit {
   selectContent(selectedContent: Content): void {
     this.shouldShowModal = true;
     this.currentlySelected = selectedContent;
-    console.log("SWITCH");
+
   }
 
   deselectContent() {
     this.currentlySelected = null;
     this.shouldShowModal = false;
   }
+
+  /* Filters */
+
+  returnCorrespondingFilters(content: Content): string[] {
+    // find matches between each filter.connected && content.id;
+    const listOfFilters: Filter[] = [];
+    const listOfFiltersText: string[] = [];
+
+    for (const correspondingFilter of FILTERS) {
+      for(const connector of correspondingFilter.connected) {
+        if(connector === content.id){
+          listOfFilters.push(correspondingFilter);
+          listOfFiltersText.push(correspondingFilter.name);
+        }
+      }
+    }
+    return listOfFiltersText;
+  }
+
 
 
 }

@@ -1,7 +1,7 @@
 import { Content } from 'content-type';
 
 export class Filter {
-  id: string;
+  id: number;
   name: string;
   connected: number[];
 }
