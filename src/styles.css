@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Colours*/
+:root {
+  --colour-main: rgb(252, 231, 98);
+  --colour-black: rgb(0, 0, 0);
+  --colour-white: rgb(255, 255, 255);
+  --colour-secondary: rgb(86, 153, 27);
+  --colour-accent: rgb(255, 90, 95);
+
+  --colour-main-08: rgba(252, 231, 98, 0.8);
+  --colour-black-08: rgba(0, 0, 0, 0.8);
+  --colour-white-08: rgba(255, 255, 255, 0.8);
+  --colour-secondary-08: rgba(86, 153, 27, 0.8);
+  --colour-accent-08: rgba(255, 90, 95, 0.8);
+
+  --colour-main-05: rgba(252, 231, 98, 0.5);
+  --colour-black-05: rgba(0, 0, 0, 0.5);
+  --colour-white-05: rgba(255, 255, 255, 0.5);
+  --colour-secondary-05: rgba(86, 153, 27, 0.5);
+  --colour-accent-05: rgba(255, 90, 95, 0.5);
+
+  --decorator-font: 'Alatsi', sans-serif;
+  --text-font: 'Roboto', sans-serif;
+
+}
+
+/*Fonts
+
+font-family: 'Roboto', sans-serif'
+font-family: 'Alatsi', sans-serif;
+
+*/
+
+/*Native Tags*/
+
+/*Classes*/
+.decorator-font{
+  font-family: 'Alatsi', sans-serif;
+}
+
+.text-font{
+  font-family: 'Roboto', sans-serif;
+}
+
+

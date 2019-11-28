@@ -1,11 +1,26 @@
-<h1>ABOUT JUSTIN</h1>
-<h2>Take a look at some of my projects!</h2>
+<div id="header-wrapper" [ngClass]='headerStatus'>
+<button (click)='changeHeaderStatus(!isOpen)'></button>
 
-<!--Filter component goes here-->
+<h1 class="decorator-font">some portfolio title</h1>
+<section class="col-lg-3">
+<h2></h2>
 
-<div>
-  <!--Content components go here-->
+<!-- Justin uses both technical and design skills to bring meaningful solutions to difficult problems. -->
+</section>
 
+<app-dong-router></app-dong-router>
 
+<!--Router goes here:
+About Me
+Projects search
+Contact
+---
+Prototypes
+Blog
+---
+Other links
+
+Router collapses into a hamburger menu on -md-
+-->
 
 </div>

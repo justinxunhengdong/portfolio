@@ -1,0 +1,13 @@
+#header-wrapper.open{
+  min-height: 100vh;
+}
+
+#header-wrapper{
+  width: 100%;
+  background-color: var(--colour-main);
+  transition: min-height 0.3s;
+}
+
+#header-wrapper.closed{
+  min-height: 100px;
+}
