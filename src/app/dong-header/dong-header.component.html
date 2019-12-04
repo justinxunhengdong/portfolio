@@ -1,14 +1,15 @@
-<div id="header-wrapper" [ngClass]='headerStatus'>
-<button (click)='changeHeaderStatus(!isOpen)'></button>
+<header id="header-wrapper" [ngClass]='headerStatus' class="container-fluid">
+<!--<button (click)='changeHeaderStatus(!isOpen)'></button>-->
+<span class="row">
 
-<h1 class="decorator-font">some portfolio title</h1>
-<section class="col-lg-3">
-<h2></h2>
-
-<!-- Justin uses both technical and design skills to bring meaningful solutions to difficult problems. -->
+<span class="header-text-wrapper col-md-12">
+<h1 class="decorator-font"><a routerLink = "/">justin.dong</a></h1>
+<section class="col-md-12   description-text">
+<h2 *ngIf="isOpen">I use both <i style="color: rgb(255, 90, 95)">technical</i> and
+  <i style="color: rgb(86, 153, 27)">design</i> skills to bring <b>meaningful solutions</b> to <b>complex problems.</b></h2>
 </section>
-
-<app-dong-router></app-dong-router>
+<app-dong-router class="col-md-12"></app-dong-router>
+</span>
 
 <!--Router goes here:
 About Me
@@ -22,5 +23,6 @@ Other links
 
 Router collapses into a hamburger menu on -md-
 -->
+</span>
 
-</div>
+</header>

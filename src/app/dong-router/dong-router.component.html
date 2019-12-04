@@ -1,4 +1,22 @@
-<nav>
-  <a routerLink="/about">About Me</a>
-  <a routerLink="/projects">Projects</a>
-</nav>
+<div id="navbar" class="navbar navbar-expand-md">
+  <button
+    id="navbar-button"
+    class="navbar-toggler btn btn-light"
+    type="button"
+    (click)="toggleNavbar()"
+  >
+    <img src="./assets/img/icon/menu_icon.png" />
+  </button>
+
+  <div
+    class="collapse navbar-collapse"
+    [ngClass]="{
+      show: navbarOpen
+    }"
+  >
+    <nav class="navbar-nav">
+      <a routerLink="/about" class="nav-item btn btn-dark">About Me</a>
+      <a routerLink="/projects" class="nav-item btn btn-dark">Projects</a>
+    </nav>
+  </div>
+</div>

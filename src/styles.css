@@ -20,9 +20,8 @@
   --colour-secondary-05: rgba(86, 153, 27, 0.5);
   --colour-accent-05: rgba(255, 90, 95, 0.5);
 
-  --decorator-font: 'Alatsi', sans-serif;
-  --text-font: 'Roboto', sans-serif;
-
+  --decorator-font: "Alatsi", sans-serif;
+  --text-font: "Roboto", sans-serif;
 }
 
 /*Fonts
@@ -35,12 +34,29 @@ font-family: 'Alatsi', sans-serif;
 /*Native Tags*/
 
 /*Classes*/
-.decorator-font{
-  font-family: 'Alatsi', sans-serif;
+.decorator-font {
+  font-family: "Alatsi", sans-serif;
 }
 
-.text-font{
-  font-family: 'Roboto', sans-serif;
+.text-font {
+  font-family: "Roboto", sans-serif;
 }
 
+a:hover {
+  text-shadow: 1px 1px var(--colour-black-05) !important;
+  text-decoration: none;
+}
 
+a:visited {
+  text-shadow: 1px 1px var(--colour-black-05) !important;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-shadow: 1px 1px var(--colour-black-08) !important;
+  text-decoration: none;
+}

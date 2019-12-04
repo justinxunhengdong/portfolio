@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationStart } from '@angular/router';
+import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-dong-header',
@@ -12,7 +12,16 @@ export class DongHeaderComponent implements OnInit {
   isOpen = false;
 
   constructor(private router: Router) {
-
+    router.events.subscribe(e => {
+      console.log(e);
+      if (e instanceof NavigationEnd) {
+        if(e.url === '/') {
+          this.changeHeaderStatus(true);
+        } else {
+          this.changeHeaderStatus(false);
+        }
+      }
+    });
   }
 
   ngOnInit() {

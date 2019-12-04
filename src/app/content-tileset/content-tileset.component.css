@@ -1,12 +1,62 @@
 #overlay{
   width: 100%;
   height: 100%;
-  background-color: green;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
   transition: display 0.2s;
+  background-color: var(--colour-black-08);
+  padding-top: 80px;
+}
+
+#overlay #markdown-container{
+  display: block;
+  margin: auto;
+  padding: 40px 30px;
+  min-height: 50vh;
+  max-height: 70vh;
+  background-color: var(--colour-white);
+  overflow-y: auto;
+  filter: blur(15);
+}
+
+#overlay #markdown-container::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+#overlay #markdown-container::-webkit-scrollbar-track {
+  background: var(--colour-black-05);
+}
+
+/* Handle */
+#overlay #markdown-container::-webkit-scrollbar-thumb {
+  background: var(--colour-main);
+  border: 1px solid var(--colour-black);
+}
+
+/* Handle on hover */
+#overlay #markdown-container::-webkit-scrollbar-thumb:hover {
+  background: var(--colour-main-08);
+}
+
+#overlay * {
+  color: var(--colour-black);
+}
+
+#overlay .button-wrapper .btn{
+  color: var(--colour-black);
+  margin: 0px 5px;
+
+}
+
+#overlay .button-wrapper{
+  display: block;
+  margin: auto;
+  margin-bottom: 150px;
+  padding: 15px;
+  background-color: var(--colour-black);
 }
 
 .container-wrapper{
@@ -25,6 +75,7 @@
   padding: 15px;
   box-sizing: border-box;
   transition: padding 0.1s;
+  cursor: pointer;
 }
 
 .tile:hover{
@@ -35,6 +86,8 @@
   position: relative;
   height: 100%;
   width: 100%;
+  overflow: hidden;
+  border: 1px solid black;
 }
 
 .tile-media-wrapper:hover{
@@ -43,7 +96,7 @@
 }
 
 .thumbnail{
-  max-height: 100%;
+  min-height: 100%;
   width: 100%;
   object-fit: cover;
   position: absolute;
@@ -55,13 +108,20 @@
 }
 
 .filter-wrapper{
-  max-height: 50%;
   position: absolute;
   bottom: 0px;
-  padding: 2px;
+  padding: 2px 15px;
   background-color: var(--colour-black-05);
   color: var(--colour-white);
   width: 100%;
   box-sizing: border-box;
+}
+
+.chip {
+  background-color: var(--colour-accent);
+  border-radius: 16px;
+  display: inline-block;
+  padding: 0px 15px;
+  margin: 1px 2px;
 }
 

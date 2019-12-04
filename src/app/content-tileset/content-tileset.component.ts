@@ -45,16 +45,20 @@ export class ContentTilesetComponent implements OnInit {
   /* Content Additional Methods */
   getNextContentLocation() {
 
-    this.contentsAll.forEach((content, index) => {
+    this.contentsAll.find((content, index) => {
       if (content.id === this.currentlySelected.id) {
-        console.log(this.currentlySelected);
         if (index + 1 === this.contentsAll.length) {
-          this.currentlySelected = this.contentsAll[0];
+          this.deselectContent();
+          this.selectContent(this.contentsAll[0]);
+          return true;
+        } else {
+          this.deselectContent();
+          this.selectContent(this.contentsAll[index + 1]);
+          return true;
         }
-
-        this.currentlySelected = this.contentsAll[index + 1];
       }
     });
+
   }
 
   /* Filters */

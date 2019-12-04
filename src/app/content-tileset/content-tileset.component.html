@@ -1,26 +1,55 @@
 <!--Overlay-->
-<div id="overlay" *ngIf = shouldShowModal>
-  <button (click) = "deselectContent()"> CLOSE ME </button>
-  <div markdown [src]="currentlySelected.postLocation">Loading Content...</div>
+<div id="overlay" *ngIf="shouldShowModal" class="container-fluid">
+  <article class="row">
+    <div
+      markdown
+      [src]="currentlySelected.postLocation"
+      id="markdown-container"
+      class="col-md-8"
+    >
+      Loading Content...
+    </div>
+  </article>
+  <span class="row">
+      <span class="button-wrapper col-md-8">
+        <button (click)="deselectContent()" class="btn btn-light">
+          Close Content
+        </button>
+        <a (click)="getNextContentLocation()"
+          ><button class="btn btn-light">Next</button></a
+        >
+      </span>
+    </span>
 
-  <a (click)="getNextContentLocation()"><button>Next</button></a>
+
 </div>
 
 <div class="container-wrapper">
-
   <!--Tile Template-->
   <div class="container">
     <div class="row">
-      <span *ngFor = "let content of contentsAll" (click)="selectContent(content)" class="col-md-4 tile">
-          <div class="tile-media-wrapper">
-            <img [src] = "content.img" class = "thumbnail" [attr.alt] = "content.title + ' thumbnail'">
-            <caption class="filter-wrapper">
-              <h4 class="content-title">{{content.title}}</h4>
-              <span class = "filters">{{returnCorrespondingFilters(content)}}</span>
-            </caption>
-          </div>
-
-      </span>
+      <a
+        *ngFor="let content of contentsAll"
+        (click)="selectContent(content)"
+        class="col-md-4 tile"
+      >
+        <div class="tile-media-wrapper">
+          <img
+            [src]="content.img"
+            class="thumbnail"
+            [attr.alt]="content.title + ' thumbnail'"
+          />
+          <caption class="filter-wrapper">
+            <h4 class="content-title">{{ content.title }}</h4>
+            <span
+              class="filters"
+              *ngFor="let filter of returnCorrespondingFilters(content)"
+            >
+              <div class="chip">{{ filter }}</div>
+            </span>
+          </caption>
+        </div>
+      </a>
+    </div>
   </div>
-
 </div>

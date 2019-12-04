@@ -1,2 +1,5 @@
 <app-dong-header></app-dong-header>
-<router-outlet></router-outlet>
+
+<div [@slide] = "outlet.isActivated ? outlet.activatedRoute : ''" id="outlet-wrapper">
+<router-outlet #outlet = outlet id="outlet"></router-outlet>
+</div>

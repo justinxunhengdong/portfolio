@@ -1,0 +1,26 @@
+.container{
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.img-wrapper img{
+  /* position: absolute; */
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.img-wrapper{
+
+}
+
+.btn {
+  margin: 0px 2px;
+}
+
+#button-links{
+  height: auto;
+  position: absolute;
+  right: 10px;
+}
