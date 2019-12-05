@@ -1,14 +1,14 @@
-<header id="header-wrapper" [ngClass]='headerStatus' class="container-fluid">
+<header id="header-wrapper" [ngClass]='headerStatus' class="container-fluid"  [style.width] = "">
 <!--<button (click)='changeHeaderStatus(!isOpen)'></button>-->
 <span class="row">
 
-<span class="header-text-wrapper col-md-12">
+<span class="header-text-wrapper">
 <h1 class="decorator-font"><a routerLink = "/">justin.dong</a></h1>
 <section class="col-md-12   description-text">
 <h2 *ngIf="isOpen">I use both <i style="color: rgb(255, 90, 95)">technical</i> and
   <i style="color: rgb(86, 153, 27)">design</i> skills to bring <b>meaningful solutions</b> to <b>complex problems.</b></h2>
 </section>
-<app-dong-router class="col-md-12"></app-dong-router>
+<app-dong-router></app-dong-router>
 </span>
 
 <!--Router goes here:

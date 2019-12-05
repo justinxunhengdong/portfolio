@@ -10,6 +10,7 @@ export class DongHeaderComponent implements OnInit {
 
   headerStatus: string;
   isOpen = false;
+  isMobile = false;
 
   constructor(private router: Router) {
     router.events.subscribe(e => {
@@ -25,6 +26,10 @@ export class DongHeaderComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  determineWidth(){
+
   }
 
   changeHeaderStatus(toOpen: boolean): void {
