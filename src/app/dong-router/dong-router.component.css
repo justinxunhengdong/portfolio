@@ -4,7 +4,6 @@ a {
 
 #navbar{
   padding: 0px;
-  display: inline-block;
 }
 
 #navbar-button{
@@ -18,4 +17,8 @@ a {
   width: 100%;
   height: 100%;
   image-rendering: pixelated;
+}
+
+.active{
+  background-color: var(--colour-secondary);
 }

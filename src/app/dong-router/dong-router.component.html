@@ -1,7 +1,7 @@
 <div id="navbar" class="navbar navbar-expand-md">
   <button
     id="navbar-button"
-    class="navbar-toggler btn btn-light"
+    class="navbar-toggler btn btn-outline-dark"
     type="button"
     (click)="toggleNavbar()"
   >
@@ -15,8 +15,9 @@
     }"
   >
     <nav class="navbar-nav">
-      <a routerLink="/about" class="nav-item btn btn-dark">About Me</a>
-      <a routerLink="/projects" class="nav-item btn btn-dark">Projects</a>
+      <a routerLink="/about" class="nav-item btn btn-dark" ng-class="{active: $route.current.loadedTemplateUrl=='/about'}">About Me</a>
+      <a routerLink="/projects" class="nav-item btn btn-dark" ng-class="{active: $route.current.loadedTemplateUrl=='/projects'}">Projects</a>
+      <a routerLink="/contact" class="nav-item btn btn-dark"ng-class="{active: $route.current.loadedTemplateUrl=='/contact'}">Contact</a>
     </nav>
   </div>
 </div>

@@ -60,3 +60,28 @@ a:active {
   text-shadow: 1px 1px var(--colour-black-08) !important;
   text-decoration: none;
 }
+
+
+body{
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--colour-black-05);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--colour-main);
+  border: 2px solid var(--colour-black);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--colour-main-08);
+}

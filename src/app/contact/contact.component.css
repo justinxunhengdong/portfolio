@@ -1,0 +1,45 @@
+.row{
+  padding: 0px 2%;
+  margin: 0px 10%;
+}
+
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.business-card{
+  padding: 10px;
+  background-color: var(--colour-main);
+  height: auto;
+  margin: 0px 8vw;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.img-wrapper {
+  display: inline-block;
+  height: 1rem;
+  max-width: 1rem;
+  min-width: 1rem;
+  min-height: 1rem;
+}
+
+img{
+  top: 0px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+a {
+  position: relative;
+  white-space: nowrap;
+}
+
+.link-text{
+  display: inline-block;
+  width: fit-content;
+  padding-left: 3px;
+}

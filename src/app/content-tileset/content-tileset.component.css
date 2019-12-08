@@ -21,26 +21,6 @@
   filter: blur(15);
 }
 
-#overlay #markdown-container::-webkit-scrollbar {
-  width: 7px;
-}
-
-/* Track */
-#overlay #markdown-container::-webkit-scrollbar-track {
-  background: var(--colour-black-05);
-}
-
-/* Handle */
-#overlay #markdown-container::-webkit-scrollbar-thumb {
-  background: var(--colour-main);
-  border: 1px solid var(--colour-black);
-}
-
-/* Handle on hover */
-#overlay #markdown-container::-webkit-scrollbar-thumb:hover {
-  background: var(--colour-main-08);
-}
-
 #overlay * {
   color: var(--colour-black);
 }
@@ -118,10 +98,13 @@
 }
 
 .chip {
-  background-color: var(--colour-accent);
+  background-color: var(--colour-secondary);
   border-radius: 16px;
   display: inline-block;
   padding: 0px 15px;
   margin: 1px 2px;
+  border: 1px solid var(--colour-black-05);
+  font-size: small;
+  max-height: 2%;
 }
 
