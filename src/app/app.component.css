@@ -5,15 +5,6 @@ app-dong-header{
   z-index: 5;
 }
 
-footer{
-  background-color: var(--colour-black);
-  margin: 0px;
-  padding: 50px 0px 25px 0px;
-  bottom: 0px;
-}
-
-footer p{
-  margin: 0px;
-  padding-left: 5vw;
-  color: var(--colour-white-08);
+app-dong-footer{
+  display: block;
 }

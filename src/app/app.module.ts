@@ -17,6 +17,7 @@ import { ChipFilterComponent } from './chip-filter/chip-filter.component';
 import { ContentTilesetComponent } from './content-tileset/content-tileset.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
+import { DongFooterComponent } from './dong-footer/dong-footer.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ContactComponent } from './contact/contact.component';
     ContentTilesetComponent,
     DongRouterComponent,
     AboutMeComponent,
-    ContactComponent
+    ContactComponent,
+    DongFooterComponent
   ],
   imports: [
     BrowserModule,

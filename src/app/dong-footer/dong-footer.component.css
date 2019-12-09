@@ -1,0 +1,12 @@
+footer{
+  background-color: var(--colour-black);
+  margin: 0px;
+  padding: 30px 0px 25px 0px;
+  bottom: 0px;
+}
+
+footer p{
+  margin: 0px;
+  padding: 0px 5vw;
+  color: var(--colour-white-08);
+}
