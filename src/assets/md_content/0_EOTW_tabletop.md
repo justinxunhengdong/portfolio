@@ -1,8 +1,6 @@
 # At the Edge of the West
 ### A tabletop role-playing game
 
-> _"I thought America had no kings"_
-
 ![Gameplay of At the Edge of the West](./assets/img/md/eotw/eotw_0.jpg)  
 _Gameplay of At the Edge of the West._
 
@@ -28,5 +26,5 @@ For this game, I wrote all of the rules from the ground up, using the _GURPS_ mo
 
 ## Insights
 
-I found that the development of this game had much overlap with both my user experience and game development work. In a tabletop game, there are many considerations that have to be made when compared to a video game, such as game speed, complexity of calculations, transparency of game mechanics, and social dynamics. I was also learnt to fail fast - in the first game session, I had to boost player speed and weapon range by around five units, as it very quickly became apparent that combat scenarios would be far too slow.
+I found that the development of this game had much overlap with both my user experience and game development work. In a tabletop game, there are many considerations that have to be made when compared to a video game, such as game speed, complexity of calculations, transparency of game mechanics, and social dynamics. I also learnt to fail fast - in the first game session, I had to boost player speed and weapon range by around five units, as it very quickly became apparent that combat scenarios would be far too slow.
 

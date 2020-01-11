@@ -6,7 +6,7 @@
 _Better Habits Battle Royale's clickthrough prototype._
 
 ## Introduction
-Better Habits Battle Royale (BHBR) was a prototype social mobile application created for a third-year Social Mobile Computing course that aims to use the framing of competition among its users to encourage prolonged behaviour change. To do this, much research was conducted into subjects such as motivation and self-determination theory, honesty and accountability, message framing and digital atmospheres. 
+Better Habits Battle Royale (BHBR) was a prototype social mobile application created for a third-year Social Mobile Computing course, that aims to use the framing of competition among its users to encourage prolonged behaviour change. To do this, research was conducted into subjects such as motivation and self-determination theory, honesty and accountability, message framing and digital atmospheres. 
 
 ![Cultural Probes](./assets/img/md/bhbr/cultural_probes.jpg) 
 

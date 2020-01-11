@@ -9,6 +9,7 @@ _The trailer for Kinesus, edited by Paul Hamela._
 Kinesus was a vertical slice created for a game development course at Purdue University. This project was a culmination of all I had learnt throughout the semester, and was implemented using Unreal Engine 4. I was in a team of two other people, and worked on the level design. The game's mechanics were based off work done in previous assignments, and used a grappling hook and a telekinesis ability. To merge these two mechanics together, I created a Zelda inspired dungeon that demonstrated the character's abilities. I used Epic's free Infinity Blade assets to create the dungeon, and certain elements, such as the interactable items, were created by a separate group member.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QVOpfYaTJ9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 _My dev diary for Kinesus' game and level design._
 
 ## Design
