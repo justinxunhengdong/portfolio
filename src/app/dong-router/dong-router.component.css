@@ -19,6 +19,15 @@ a {
   image-rendering: pixelated;
 }
 
+#navbar{
+}
+
 .active{
   background-color: var(--colour-secondary);
 }
+
+.navbar-button{
+  min-width: 60px;
+}
+
+

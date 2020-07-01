@@ -10,6 +10,7 @@ import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { MarkdownModule } from 'ngx-markdown';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import * as $ from "jquery";
 //Custom Components
 import { DongHeaderComponent } from './dong-header/dong-header.component';
 import { DongRouterComponent } from './dong-router/dong-router.component';

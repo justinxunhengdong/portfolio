@@ -21,7 +21,11 @@ import { slideInLeft, slideInRight } from 'ng-animate';
   ])
 ]
 
+
+
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'Justin Dong: UX Designer';
 }
+
+

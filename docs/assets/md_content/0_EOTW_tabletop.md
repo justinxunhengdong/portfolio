@@ -28,3 +28,5 @@ For this game, I wrote all of the rules from the ground up, using the _GURPS_ mo
 
 I found that the development of this game had much overlap with both my user experience and game development work. In a tabletop game, there are many considerations that have to be made when compared to a video game, such as game speed, complexity of calculations, transparency of game mechanics, and social dynamics. I also learnt to fail fast - in the first game session, I had to boost player speed and weapon range by around five units, as it very quickly became apparent that combat scenarios would be far too slow.
 
+One of the most interesting things I learnt was to focus on output rather than input with regards to game mechanics. Simple features such as skill checks went through the most iterations - I originally went for a much more complex rolling system involving several dice, but I found that it was more interesting to minimise cognitive load and game complexity by using less complex mathematics (for example, using a single d20 for actions) and to change the probabilities of outputs, rather than to get hung up on the mathematics of the input.
+

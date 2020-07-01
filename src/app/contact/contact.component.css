@@ -11,9 +11,11 @@
 }
 
 .business-card{
+  position: relative;
   padding: 10px;
-  background-color: var(--colour-main);
   height: auto;
+  min-height: 50%;
+  background-color: var(--colour-main);
   margin: 0px 8vw;
 }
 
@@ -38,10 +40,17 @@ img{
 a {
   position: relative;
   white-space: nowrap;
+  color: var(--colour-black);
+  box-sizing: border-box;
 }
 
 .link-text{
   display: inline-block;
   width: fit-content;
   padding-left: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
 }

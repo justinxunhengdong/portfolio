@@ -1,35 +1,123 @@
 #header-wrapper.open{
   min-height: 100vh;
-  padding: 30px 10px;
+  max-width: 100%;
 }
 
 #header-wrapper{
-  background-color: var(--colour-main);
-  transition: min-height 0.3s;
-  width: 100%;
+  background-image: url("header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
   position: relative;
+  min-width: 200px;
+  max-width: 100%;
+  padding: 0px;
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+#header-wrapper.open {
+  background-position: center;
+  padding-top: 35vmin;
+}
+
+.title-header{
+  position: relative;
+  left: -1%;
+  background-color: var(--colour-main);
+  transform: skew(-5deg);
+  width: fit-content;
+  min-width: 50vw;
+  max-width: 90%;
+  padding-left: 5%;
+  margin: 0px;
+  transition-property: box-shadow, min-height;
+  transition-duration: 0.2s;
+}
+
+.open .title-header{
+  padding: 5px;
+  padding-top: 15px;
+  overflow: none;
+}
+
+.closed .title-header{
+  min-height: 130px;
+  box-shadow: 30vw 0px 0px 0px rgba(0,0,0,0.5);
+}
+
+.title-header .header-text-wrapper, .title-header .navbar-header{
+  transform: skew(5deg);
 }
 
 #header-wrapper.closed{
-  min-height: 100px;
-  padding: 15px 30px 10px;
+  height: 100%;
+  padding: 0px;
+  background-position: 50% 60%;
 }
 
 .decorator-font a{
   color: var(--colour-black);
+  letter-spacing: -1pt;
 }
 
 .open .header-text-wrapper{
-  position: absolute;
-  top: 50vmin;
+  display: block;
   padding-left: 5%;
+  max-width: 500px;
+}
+.open {
+  overflow: hidden;
 }
 
-.open app-dong-router{
-  /*position: absolute;*/
+.open .title-header{
+}
+
+.open .header-text-wrapper{
   display: block;
   margin-right: 15px;
   margin-bottom: 20px;
   right: 0px;
   bottom: 0px;
+  width: auto;
+  max-width: 100vh;
+}
+
+.closed .header-text-wrapper{
+  padding-top: 12px;
+  min-height: 100%;
+}
+
+.decorator-font{
+  padding-left: 15px;
+}
+
+.mobile-nav .closed{
+  display: inline-block;
+}
+
+.open .navbar-header{
+  display: block;
+  padding-left: 5%;
+}
+
+.mobile-nav{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  align-content: right;
+}
+
+.closed .navbar-header, .closed .header-text-wrapper{
+  clear: both;
+}
+
+#header-img{
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }

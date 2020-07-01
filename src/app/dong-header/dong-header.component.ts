@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 
 @Component({
@@ -11,6 +11,22 @@ export class DongHeaderComponent implements OnInit {
   headerStatus: string;
   isOpen = false;
   isMobile = false;
+  resizeTimeout;
+
+  ngOnInit(){
+    this.checkIsMobile();
+  }
+
+  @HostListener('window:resize')
+  onWindowResize() {
+      //debounce resize, wait for resize to finish before doing stuff
+      if (this.resizeTimeout) {
+          clearTimeout(this.resizeTimeout);
+      }
+      this.resizeTimeout = setTimeout((() => {
+          console.log('Resize complete');
+      }).bind(this), 500);
+    }
 
   constructor(private router: Router) {
     router.events.subscribe(e => {
@@ -25,13 +41,6 @@ export class DongHeaderComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
-  }
-
-  determineWidth(){
-
-  }
-
   changeHeaderStatus(toOpen: boolean): void {
     if (toOpen) {
       this.isOpen = true;
@@ -42,5 +51,12 @@ export class DongHeaderComponent implements OnInit {
     }
   }
 
+  checkIsMobile(): void {
+      this.isMobile = $('#navbar-button').is(':visible');
+  }
+
+  onResize(event) {
+    this.checkIsMobile();
+ }
 
 }

@@ -1,23 +1,26 @@
-<div id="navbar" class="navbar navbar-expand-md">
+<div id="navbar" class="">
+<!--
   <button
-    id="navbar-button"
-    class="navbar-toggler btn btn-outline-dark"
+    id=""
+    class=" btn btn-outline-dark"
     type="button"
     (click)="toggleNavbar()"
   >
     <img src="./assets/img/icon/menu_icon.png" />
   </button>
+-->
 
   <div
-    class="collapse navbar-collapse"
+    class=""
     [ngClass]="{
       show: navbarOpen
     }"
+    (window:resize)="onResize($event)"
   >
-    <nav class="navbar-nav">
-      <a routerLink="/about" class="nav-item btn btn-dark" ng-class="{active: $route.current.loadedTemplateUrl=='/about'}">About Me</a>
-      <a routerLink="/projects" class="nav-item btn btn-dark" ng-class="{active: $route.current.loadedTemplateUrl=='/projects'}">Projects</a>
-      <a routerLink="/contact" class="nav-item btn btn-dark"ng-class="{active: $route.current.loadedTemplateUrl=='/contact'}">Contact</a>
+    <nav id="navbar">
+      <a routerLink="/about" class="btn btn-dark" ng-class="{active: $route.current.loadedTemplateUrl=='/about'}">About Me</a>
+      <a routerLink="/projects" class="btn btn-dark" ng-class="{active: $route.current.loadedTemplateUrl=='/projects'}">Projects</a>
+      <a routerLink="/contact" class="btn btn-dark"ng-class="{active: $route.current.loadedTemplateUrl=='/contact'}">Contact</a>
     </nav>
   </div>
 </div>
