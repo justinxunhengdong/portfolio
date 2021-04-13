@@ -10,7 +10,15 @@ import * as MarkdownModule from 'ngx-markdown';
 @Component({
   selector: 'app-content-tileset',
   templateUrl: './content-tileset.component.html',
-  styleUrls: ['./content-tileset.component.css']
+  styleUrls: ['./content-tileset.component.css'],
+  styles: [`
+     #markdown-container
+       ::ng-deep img {
+      min-width: 100px;
+      max-width: 100vw;
+    }
+  `],
+
 })
 
 
