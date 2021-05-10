@@ -10,13 +10,26 @@ I worked on many of ATO Online's front-facing applications, such as Income Tax H
 
 At the ATO, I have worked as an interface designer, prototyping different scenarios in Sketch or XD. I found this a challenge, particularly since my skills are more geared towards user research and UX architecture; my experience in interface design was comparatively lesser.  
 
-## PAYGW Variation Application
+## PAYG Withholding Variation Application
 
-My largest piece of work involved the conversion of a complex paper form into an accessible format for ATO Online. This feature is known as PAYG Withholding Variation Application, and is a stripped-down version of MyTax.
+My largest piece of work involved the conversion of a complex paper form into an accessible format for ATO Online. This feature is known as PAYG Withholding Variation Application, and is a stripped-down version of MyTax.  
+
+![The PAYG Withholding Variation paper form.](./assets/img/md/paygw/paygw-paper.jpg)  
+_I split up the paper form physically to get a high-level sense of the form's requirements._
+
+![A PAYG Withholding Variation paper form question. ](./assets/img/md/paygw/paygw-paper2.jpg)  
+_By splitting the form into each question, I was able to easily regroup and rearrange sections, as well as simulate functionality. This had the added benefit of being able to easily reference the form's original text._
 
 My initial work involved breaking down the existing paper form and understanding each question from a business rules perspective. My goal with this was to understand the information architecture of the form. To do this, I physically printed out the paper form, and split it up into each question and text box. I then reorganised these based on an overall flow of the document, and liased with the business team to verify its functionality.
 
+![An initial Information Architecture overview of the full page.](./assets/img/md/paygw/info-architecture2.jpg)  
+_I used the MyTax layout and architecture to inform and reorganise the form's questions. This shows a high-level view of the content of each wizard step._
+
 From here I designed the page in Adobe XD and Sketch. As this was during a transitionary period at the start of the Covid-19 pandemic, we had compatibility issues between each program that hindered my work. We were luckily able to push past these issues, and I used the existing established ATO design patterns and components to build the page, communicating frequently with the UX team to ensure that the patterns were being followed, and the page was cohesive with the rest of the website. I learnt much about interface design during this stage, as my previous work mainly surrounded the social/psychological side of UX design. Unfortunately, we were not able to do genuine user testing, which is standard within the UX space - we worked mostly off previous insights and guidance from the UX team.
+
+
+![Part of the final webpage on the ATO website.](./assets/img/md/paygw/non-variedpayers.png)  
+_A snapshot from the final page as available on the ATO website. Detailled communication for seemingly minor details such as header sizing, text formatting and component usage was required for this feature._
 
 As a result of my knowledge designing the page and refining its rules, wordings and interactions, I became the primary business analyst for this feature within my team. I had to write detailed documentation and was given the responsibility of collating and understanding detailled business rules and interactions, and negotiated, suggested and championed alternatives with both business stakeholders and UX consultants. As one of the first instances at the ATO where design, business and development happened concurrently, we had to adapt quickly to an agile development process (the ATO follows a waterfall process with regards to business and design of pages). I had to tightly communicate with my team's developers, ensuring that the right decisions were being made early, keeping in mind team capacity, velocity and estimations. I was able to organise our workflows and mitigate and reduce our dependencies as a result of this, as the team's agile evangelist.
 

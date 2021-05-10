@@ -19,7 +19,7 @@ The game's central gameplay theme revolves around tension, as I wanted to emulat
 
 
 ![Weapon cards](./assets/img/md/eotw/eotw_weapons.png)  
-_I used interface design techniques to design the different types of cards, and created them in Adobe Illustrator._
+_I used interface design techniques to design the different types of cards, and created them in Adobe Illustrator. I found that I could reduce a lot of cognitive load by allowing players to write on the card itself - e.g on the "damage" and "level" sections._
 
 
 For this game, I wrote all of the rules from the ground up, using the _GURPS_ model as a main point of influence, though I later took more inspiration from a variety of other sources. This was a gargantuan task, as I had to define the many rules and roles while keeping the game accessible. This included defining combat mechanics, dice probability distributions and accuracy tables for each individual weapon. I also developed the art and descriptions for all ~200 unique cards, all of which had to work on both gameplay and narrative fronts. I am also constantly iterating its design; more recently, I've changed the skill system to be more understandable, and am in the process of adding skill trees and additional mechanics, as well as modelling and 3D printing my own miniatures.
