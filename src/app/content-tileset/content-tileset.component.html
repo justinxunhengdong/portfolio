@@ -26,6 +26,11 @@
 
 <div class="container-wrapper">
   <!--Tile Template-->
+  <div class = "row chip-filter-holder">
+    <span>Filter content: </span>
+    <app-chip-filter (chipClicked)= checkFiltersUsed()>
+      </app-chip-filter>
+  </div>
   <div class="container">
     <div class="row">
       <a
@@ -45,7 +50,7 @@
               class="filters"
               *ngFor="let filter of returnCorrespondingFilters(content)"
             >
-              <div class="chip">{{ filter }}</div>
+              <div class="chip">{{ filter.name }}</div>
             </span>
           </caption>
         </div>

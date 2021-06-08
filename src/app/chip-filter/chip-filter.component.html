@@ -1,1 +1,7 @@
-<p>chip-filter works!</p>
+<a
+        *ngFor="let filter of filters"
+        class="chip"
+        [ngClass] = "filter.active ? '' : 'inactive'"
+        (click) = "clickFilter(filter)"
+      ><span> {{filter.name}}</span>
+    </a>

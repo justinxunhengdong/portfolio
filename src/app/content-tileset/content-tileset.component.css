@@ -117,3 +117,18 @@
   background-color: var(--colour-accent);
 }
 
+.chip-filter-holder{
+  margin: auto;
+  min-width: 100%;
+  padding: 7px 12%;
+  background-color: var(--colour-black-08);
+  color: var(--colour-white);
+}
+.chip-filter-holder span{
+  padding: 0px 5px;
+}
+
+.chip-filter-holder app-chip-filter{
+  display: block;
+}
+

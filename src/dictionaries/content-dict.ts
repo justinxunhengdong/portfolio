@@ -14,6 +14,14 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/atoo.png'
   },
 
+
+  {
+    id: 9,
+    postLocation: 'assets/md_content/10_MetaHuman.md',
+    title: 'Metahuman',
+    img: 'assets/img/thumbnails/metahuman.png'
+  },
+
   {
     id: 2,
     postLocation: 'assets/md_content/2_EOTW.md',

@@ -1,4 +1,4 @@
-import { Component, OnInit, NgModule } from '@angular/core';
+import { Component, OnInit, NgModule, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { Content } from 'dictionaries/datatypes/content-type';
@@ -6,6 +6,7 @@ import { Filter } from 'dictionaries/datatypes/filter-type';
 import { CONTENTS } from 'dictionaries/content-dict';
 import { FILTERS } from 'dictionaries/filter-dict';
 import * as MarkdownModule from 'ngx-markdown';
+import { ChipFilterComponent } from 'app/chip-filter/chip-filter.component';
 
 @Component({
   selector: 'app-content-tileset',
@@ -29,6 +30,8 @@ export class ContentTilesetComponent implements OnInit {
   contentsAll: Content[];
   filtersUsed: Filter[];
   shouldShowModal: boolean;
+
+  //@ViewChild(ChipFilterComponent) chipFilters;
 
   constructor() { }
 
@@ -71,7 +74,7 @@ export class ContentTilesetComponent implements OnInit {
 
   /* Filters */
 
-  returnCorrespondingFilters(content: Content): string[] {
+  returnCorrespondingFilters(content: Content): Filter[] {
     // find matches between each filter.connected && content.id;
     const listOfFilters: Filter[] = [];
     const listOfFiltersText: string[] = [];
@@ -84,7 +87,30 @@ export class ContentTilesetComponent implements OnInit {
         }
       }
     }
-    return listOfFiltersText;
+    return listOfFilters;
+  }
+
+  checkFiltersUsed(){
+    this.filtersUsed = [];
+    for (const correspondingFilter of FILTERS) {
+      if(correspondingFilter.active){
+        this.filtersUsed.push(correspondingFilter);
+      }
+    }
+    //console.log(this.filtersUsed);
+    this.syncFiltersAndContents();
+  }
+
+  syncFiltersAndContents(){
+    this.contentsAll = [];
+    for (const content of CONTENTS){
+      var contentCategories: Filter [] = this.returnCorrespondingFilters(content);
+      for(const filter of contentCategories){
+        if(this.filtersUsed.includes(filter) && !this.contentsAll.includes(content)){
+          this.contentsAll.push(content);
+        }
+      }
+    }
   }
 
 

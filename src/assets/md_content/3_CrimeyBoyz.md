@@ -30,7 +30,10 @@ During development, I was heavily involved with gameplay programming, and progra
 
 ![Lightweight Render Pipeline and art direction](./assets/img/md/crimeyboyz/gameplay_defcon.png) 
 
-_The game made use of Unity's Lightweight Render Pipeline for its advanced lighting effects._
+_The game made use of Unity's Lightweight Render Pipeline for its advanced lighting effects._  
+
+![Trello task and bug organisation](./assets/img/md/crimeyboyz/trello.png)  
+_We used Trello to organise our tasks, using simple criteria to verify implementation._
 
 My other contributions included leading the team, using my skills developing in Scrum to keep the team organised, acting as the game's product owner as well as secondary Scrum master with writing acceptance criteria, test cases. I also led the art design, which had a "space Art Deco" theme, due to my love of _Bioshock_.
 
