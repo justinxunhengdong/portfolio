@@ -14,6 +14,12 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/atoo.png'
   },
 
+  {
+    id: 10,
+    postLocation: 'assets/md_content/11_ZeroGravity.md',
+    title: 'Zero Gravity',
+    img: 'assets/img/thumbnails/zerog.png'
+  },
 
   {
     id: 9,
