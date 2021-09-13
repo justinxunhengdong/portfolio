@@ -7,6 +7,8 @@ import { CONTENTS } from 'dictionaries/content-dict';
 import { FILTERS } from 'dictionaries/filter-dict';
 import * as MarkdownModule from 'ngx-markdown';
 import { ChipFilterComponent } from 'app/chip-filter/chip-filter.component';
+import { OutletContext } from '@angular/router';
+import { BrowserDynamicTestingModule } from '@angular/platform-browser-dynamic/testing';
 
 @Component({
   selector: 'app-content-tileset',
@@ -38,29 +40,44 @@ export class ContentTilesetComponent implements OnInit {
   ngOnInit() {
     this.contentsAll = CONTENTS;
     this.filtersUsed = FILTERS;
-    this.shouldShowModal = false;
+    this.showModal(false);
   }
 
   /* Overlay  */
   selectContent(selectedContent: Content): void {
-    this.shouldShowModal = true;
+    this.showModal(true);
     this.currentlySelected = selectedContent;
-
+    var container = document.getElementById("markdown-container");
+    container.scrollTop = 0;
   }
 
   deselectContent() {
     this.currentlySelected = null;
-    this.shouldShowModal = false;
+    this.showModal(false)
+  }
+
+  showModal(isShowModal: boolean): void{
+    /*
+    var body = document.getElementById("html");
+    if(isShowModal){
+      //lock scroll
+      body.classList.add("no-scroll");
+    } else {
+      //unlock scroll for main body
+      body.classList.remove("no-scroll");
+    }
+    */
+    this.shouldShowModal = isShowModal;
   }
 
   /* Content Additional Methods */
   getNextContentLocation() {
-
     this.contentsAll.find((content, index) => {
       if (content.id === this.currentlySelected.id) {
         if (index + 1 === this.contentsAll.length) {
           this.deselectContent();
           this.selectContent(this.contentsAll[0]);
+
           return true;
         } else {
           this.deselectContent();

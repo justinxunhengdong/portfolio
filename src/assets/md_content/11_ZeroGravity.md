@@ -1,5 +1,5 @@
 # Zero Gravity
-## A short puzzle-platforming game in zero gravity.
+### A short puzzle-platforming game in zero gravity
 
 [Itch.io page for Zero Gravity](https://jdong6.itch.io/zero-gravity)
 

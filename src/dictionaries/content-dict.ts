@@ -15,6 +15,13 @@ export const CONTENTS: Content[] = [
   },
 
   {
+    id: 11,
+    postLocation: 'assets/md_content/12_AColdNight.md',
+    title: 'A Cold Night',
+    img: 'assets/img/thumbnails/coldnight.png'
+  },
+
+  {
     id: 10,
     postLocation: 'assets/md_content/11_ZeroGravity.md',
     title: 'Zero Gravity',

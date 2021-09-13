@@ -92,3 +92,8 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: var(--colour-main-08);
 }
+
+.no-scroll{
+  height: 100%;
+  overflow: hidden;
+}
