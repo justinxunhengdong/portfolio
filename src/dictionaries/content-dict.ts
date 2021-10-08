@@ -15,6 +15,13 @@ export const CONTENTS: Content[] = [
   },
 
   {
+    id: 12,
+    postLocation: 'assets/md_content/13_AssassinsCreed.md',
+    title: "Exploring Assassin's Creed",
+    img: 'assets/img/thumbnails/ac.png'
+  },
+
+  {
     id: 11,
     postLocation: 'assets/md_content/12_AColdNight.md',
     title: 'A Cold Night',

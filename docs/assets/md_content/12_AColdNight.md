@@ -4,7 +4,8 @@
 ## Introduction
 Open-world design has always been one of the most fascinating areas that I've wanted to explore, chiefly as a level designer, but also in other disciplines such as narrative and systems design. In fact, it was the popularisation and revolution of the open-world genre through exploration-focused games such as _Breath of the Wild_, the _Fallout_ series, and the modern _Assassin's Creed_ titles that first got me interested in level design. The development of _A Cold Night_ came a few months after the development of _Zero Gravity_ and _Metahuman_, after the early access build of Unreal Engine 5 was released. The chief creative inspiration for this game came after watching the Charlie Kaufman film _I'm Thinking of Ending Things_, where I found the idea of a surrealist open-world game with low visibility extremely interesting. In line with many of the other projects I've worked on (following a thread from various undocumented escape-the-room projects, _Obelisk of Insanity_, _Metahuman_, and _Zero Gravity_), the game intends to convey feelings of existential dread and loneliness with a healthy dose of absurdist humour. In order to limit the scope for the game, I also wanted to avoid relying on systems such as combat, dialogue choices or loot to drive gameplay, preferring to focus on a narrative-driven experience.  
 
-![A scene from 'I'm Thinking of Ending Things'.](./assets/img/md/coldnight/thinking-of-ending-things.png) 
+![A scene from 'I'm Thinking of Ending Things'.](./assets/img/md/coldnight/thinking-of-ending-things.png)  
+
 ![The initial petrol station from A Cold Night.](./assets/img/md/coldnight/petrol-station.png) 
 
 _The visual design from A Cold Night (bottom) was greatly inspired by I'm Thinking of Ending Things (top). Concessions for gameplay had to be made, such as the amount of darkness in the game._
