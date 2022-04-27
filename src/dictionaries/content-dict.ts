@@ -83,7 +83,7 @@ export const CONTENTS: Content[] = [
     title: 'Signal',
     img: 'assets/img/thumbnails/signal.png'
   },
-
+/*
   {
     id: 7,
     postLocation: 'assets/md_content/7_Kinesus.md',
@@ -97,5 +97,6 @@ export const CONTENTS: Content[] = [
     title: 'Obelisk of Insanity',
     img: 'assets/img/thumbnails/obelisk.png'
   }
+  */
 ]
 

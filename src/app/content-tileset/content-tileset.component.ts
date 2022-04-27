@@ -34,6 +34,8 @@ export class ContentTilesetComponent implements OnInit {
   shouldShowModal: boolean;
 
   //@ViewChild(ChipFilterComponent) chipFilters;
+  //start all filters "selected"
+  //grey out all filters not selected once one is clicked
 
   constructor() { }
 
@@ -93,6 +95,7 @@ export class ContentTilesetComponent implements OnInit {
 
   returnCorrespondingFilters(content: Content): Filter[] {
     // find matches between each filter.connected && content.id;
+    // Adds filter chip onto the content.
     const listOfFilters: Filter[] = [];
     const listOfFiltersText: string[] = [];
 
@@ -108,6 +111,7 @@ export class ContentTilesetComponent implements OnInit {
   }
 
   checkFiltersUsed(){
+
     this.filtersUsed = [];
     for (const correspondingFilter of FILTERS) {
       if(correspondingFilter.active){
@@ -123,6 +127,8 @@ export class ContentTilesetComponent implements OnInit {
     for (const content of CONTENTS){
       var contentCategories: Filter [] = this.returnCorrespondingFilters(content);
       for(const filter of contentCategories){
+        //Deselecting a filter should disable anything WITH the filter
+        //if the filter is disabled then HIDE everything with the filter enabled
         if(this.filtersUsed.includes(filter) && !this.contentsAll.includes(content)){
           this.contentsAll.push(content);
         }
