@@ -15,6 +15,13 @@ export const CONTENTS: Content[] = [
   },
 
   {
+    id: 14,
+    postLocation: 'assets/md_content/14_NetflixChapterSelect.md',
+    title: 'Netflix Chapter Select',
+    img: 'assets/img/thumbnails/netflix.png'
+  },
+
+  {
     id: 16,
     postLocation: 'assets/md_content/16_CannonGame.md',
     title: "Cannon Game",
