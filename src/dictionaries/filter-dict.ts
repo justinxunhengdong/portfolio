@@ -3,7 +3,7 @@ import {Content} from './datatypes/content-type';
 import {CONTENTS} from './content-dict';
 
 export const FILTERS: Filter[] = [
-  { id: 0, name: 'UX Design', connected: [1, 2, 3, 4, 5, 14], active: true},
+  { id: 0, name: 'UX Design', connected: [1, 2, 3, 4, 5, 14, 17], active: true},
   { id: 1, name: 'Level Design', connected: [0, 12, 11, 10, 9, 3], active: true},
   { id: 2, name: 'Systems Design', connected: [0, 2, 3, 4], active: true},
   { id: 3, name: 'Gameplay Design', connected: [0, 16, 10, 2, 3, 4], active: true},
