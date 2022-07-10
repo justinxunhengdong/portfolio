@@ -7,7 +7,7 @@
   z-index: 5;
   transition: display 0.2s;
   background-color: var(--colour-black-08);
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 #overlay #markdown-container{
@@ -15,7 +15,7 @@
   margin: auto;
   padding: 40px 30px;
   min-height: 50vh;
-  max-height: 70vh;
+  max-height: 80vh;
   background-color: var(--colour-white);
   overflow-y: auto;
   filter: blur(15);

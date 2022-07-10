@@ -7,6 +7,14 @@ export const CONTENTS: Content[] = [
     title: 'Halfbrick Studios',
     img: 'assets/img/thumbnails/halfbrick.png'
   },
+
+  {
+    id: 15,
+    postLocation: 'assets/md_content/15_WongKarWaiGame.md',
+    title: 'Lighthouse Game',
+    img: 'assets/img/thumbnails/lighthouse.png'
+  },
+
   {
     id: 1,
     postLocation: 'assets/md_content/1_ATOOnline.md',
