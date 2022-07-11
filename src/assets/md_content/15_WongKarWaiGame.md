@@ -37,13 +37,19 @@ _Act 1 takes architectural inspiration from 2046. This can be seen in the game's
 _The final train station is designed to occlude the character of Yellow until the very end, although she can be seen in glimpses in other parts of the level. The lighting and architecture took inspiration from monorail systems in Taipei, as well as In the Mood For Love in how characters are occluded and framed._
 
 ### Level Design
-I wanted to hone in on level layouts, pacing and scripting, which were skills that I felt were lacking after my previous level design-focused projects. My previous projects often featured basic interiors, which would take a minute or two to complete. In contrast, The Space Between would focus almost entirely on interiors, allowing me to build more complex map layouts and longer levels - the linearity and greter focus on the script would help me more tightly direct the player experience. As I progressed further along into the project, I began to use a progress similar to a storyboard or shot list in order to pace out dialogue triggers, scripted sequences, exploration, and the visibility of the environment. I usually like to block out spaces in the editor, but I used paper prototyping for planning levels and building structure. For inspiration, I played linear games like God of War (2018) and Guardians of the Galaxy to replicate the narrative and navigation pacing.
+I wanted to hone in on level layouts, pacing and scripting, which were skills that I felt were lacking after my previous level design-focused projects. I particularly wanted to make the player move in interesting ways - finding dead ends, moving in circles, or moving vertically. For inspiration, I played linear games like God of War (2018), Guardians of the Galaxy and Bioshock, to replicate the narrative pacing and navigation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AKeUZVikPV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_I wanted to incorporate many of the techniques I had learnt in this video by Peter Field._
+
+ As I progressed further along into the project, I began to use a progress similar to a storyboard or shot list in order to pace out dialogue triggers, scripted sequences, exploration, and the visibility of the environment. I usually like to block out spaces in the editor, but I used paper prototyping for planning levels, story structure and interiors.
 
 ![Storyboard](./assets/img/md/lighthouse/storyboarding.png)  
 _My design process for these levels often included a "shot list" of beats I wanted to use. Doing this helped me visualise the pacing of the level while I was making it. Each level follows a simple 3-act structure, as does the game._
 
 #### Prologue - "I find myself here again"
-This level consists of a simple approach towards a lighthouse, some dialogue and visual text triggers, and a cutscene. I wanted a short level and environment to bookend the game, and I used the metaphor of a lighthouse (representing the character's inability to move on, and getting lost in memory). I iterated on this level quickly, and used it to familiarise myself with the Supergrid plugin. 
+This level consists of a simple approach towards a lighthouse, some dialogue and visual text triggers, and a cutscene. I wanted a short level and environment to bookend the game, and I used the metaphor of a lighthouse (representing the perceived safety of nostalgia and memory, and the cyclical nature of the story). I iterated on this level quickly, and used it to familiarise myself with the Supergrid plugin. 
 
 ![Cutscene](./assets/img/md/lighthouse/lh-cutscene.png)  
 _This cutscene was the first time I used sequencer, and is crucial in establishing the tone of the game. As this sequence reflects the character's imagination, it's played in first-person. Acts are played in third-person, used to represent memory. This was inspired by Gaspar Noe's Enter the Void._
@@ -51,31 +57,24 @@ _This cutscene was the first time I used sequencer, and is crucial in establishi
 #### Act 1 - "Nothing happens, nothing changes"
 This level consists of three areas that slowly build up the character's backstory. It took inspiration from Chungking Express thematically and 2046 architecturally, and I learnt much about the relationship between architecture, composition and navigation in the process, as well as using AI and crowd systems with the NPCs.
 
-
 ![Act-1-2](./assets/img/md/lighthouse/act-1b-3.png)  
 _Every area within this act hides the goal to the next area - first with a moving crowd, then with fences and geometry, and then finally with walls and interiors - the player has to explore to progress in the game._
 
-I initilly built a version of this level with a different narrative, although I scrapped it after feedback and rebuilt it. While it features some interesting themes that I reused in the subsequent version, I found it too incoherent and didn't hit the right narrative beats, as well as took focus away from the character's core conflict.
+I initilly built a version of this level with a different narrative, although I scrapped it after feedback and rebuilt it. While it features some interesting themes that I reused in the subsequent version, I found from feedback that it could be incoherent and didn't hit the right narrative beats, and ultimately took focus away from the character's core conflicts.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K3C2SSsStHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_Dev Video 5 shows an early version of Act 1. I loved the cutscene used in this level, but cut it for the sake of the game. The city, use of walkways, crowds and lighting were all expanded and edited in the updated version._
+_Dev Video 4 shows an early version of Act 1. I loved the cutscene used in this level, but cut it for the sake of the game. The ideas of the city, use of walkways, crowds and lighting were all expanded and edited in the updated version._
 
 ### Scripting
-While previous projects' scripting rarely extended beyond dialogue triggers, I was interested to carry over my film editing experience into The Space Between, which uses Unreal Engine's sequencer for more complex scenes involving sound, loading and camerawork. Fortunately, Unreal Engine's sequencer is simple enough to use, and works for both interactive and non-interactive sequences. I also edited the ALS blueprints to allow for AI scripting - most AI within the game follow predetermined paths. This control was important, as the game makes heavy use of crowds to manipulate tone - for instance, to be lonely or claustrophobic.
+While previous projects' scripting rarely extended beyond dialogue triggers, I was interested to carry over my film editing experience into this project, which uses Unreal Engine's sequencer for more complex scenes involving sound, loading and camerawork. Fortunately, Unreal Engine's sequencer is simple enough to use, and works for both interactive and non-interactive sequences. I also edited the ALS blueprints to allow for AI scripting - most AI within the game follow predetermined paths. This control was important, as the game makes heavy use of crowds to manipulate tone - for instance, to be lonely or claustrophobic.
 
 ![Crowds](./assets/img/md/lighthouse/act-1b-1.png)  
-_The game makes heavy use of crowd systems and AI scripting. NPCs initially weren't going to feature much in the game, but I found that having NPCs added to the tone of the story, and are used in Wong's films to emphasise themes of loneliness, space and connection._
+_The game makes heavy use of crowd systems and AI scripting. NPCs initially weren't going to feature much in the game, but I found that having NPCs added to the tone of the story, and are used in Wong's films to emphasise themes of loneliness, space and connection. The amount of NPCs in the game also add an extra dimension to reading and navigating the spaces._
 
 ## Development
 ### Technology
-I used Unreal Engine 5 for this project, which was mostly due to the Lumen featureset, and due to the preview update. In the past, using the World Partition features had produced corruption errors (for Metahuman and my Assassin's Creed project), so I was hesitant to use these features - I ended up using World Partition for the data layer featureset, which produced a few minor issues. Having faced these issues previously, I was able to largely avoid them for this project. I also used Supergrid assets for the bulk of the game, mostly to replace my previous BSP greyboxing process, which I found could be very volatile with UE5.
-
-
-![Composition](./assets/img/md/lighthouse/act-1b-4.png)  
-_I placed many of the background buildings to work within specific compositions, as is shown in the image above._
-
-I also rebuilt the entirety of Act 1 to be both shorter and more efficient, as I pivoted directions after building my first iteration. While there were many elements that I liked from this level, and I used insights from this iteration for the later level, I found from feedback and reflection that it wasn't working narratively and didn't feel cohesive enough as an environment.
+I used Unreal Engine 5 for this project, which was mostly due to the Lumen featureset, and due to the preview update. In the past, using the World Partition features had produced corruption errors (for Metahuman and my Assassin's Creed project), so I was hesitant to use these features - I ended up using World Partition for the data layer featureset, which produced a few minor issues. Having faced these issues previously, I was able to largely avoid them for this project. I also used Supergrid assets for the bulk of the game, mostly to replace my previous BSP greyboxing process, which I found could be very volatile with UE5. I later used Unreal Engine 5's new modelling tools instead of the Supergrid meshes, as it gave me much more control over the stylised architecture of my levels.
 
 ### Planning and Process
 Each of my projects usually focuses around a different skillset or technology, which can be a huge potential time sink. I first outlined the most crucial failure points, as well as the quickest ways to test and overcome them - for this project, it was scripting AI, the narrative delivery methods (subtitles, world text and vocal text) and using the sequencer. With this in mind, I timeboxed a few days in order to assimilate the AI scripting I needed with the Advanced Locomotion System, and another few days to test out the prologue cutscene. By proving out the technology early, I would be able to understand the possibilities and limits of my game. 
@@ -93,7 +92,8 @@ This project allowed me to create simple levels with a fast production schedule,
 ### Development Videos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/umfPC9mmvPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_Dev video 1. This shows the initial Lighthouse and cutscene level. I used this as a proof-of-concept to decide if I should continue working on the project._
+_Dev video 1. This shows the initial Lighthouse and cutscene level. I used this as a proof-of-concept to decide if I should continue working on the project. It also shows my first approach to the game's visual text, which represent the character's intrusive thoughts. Wong's style of writing was something I iterated upon constantly, to find the right balance of poetic and relatable._
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8XCrqi8_MQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 _Dev video 2. This shows the lighthouse and Act 1. This version uses much of the backrooms influence that I later removed, as well as a preliminary cutscene where the main character's heart gets broken._
@@ -116,4 +116,4 @@ _Dev video 6. This shows most of Act 1 with some additional visual changes, and 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JPm5c4JZ9RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-_Dev video 7. I polished some bugs from Dev video 6 and created a feature-complete version of the level, and adjusted the lighting of the first area._
+_Dev video 7. I polished some bugs from Dev video 6 and created a feature-complete version of the level, and adjusted the lighting of the first area to be reminiscent of Chungking Express._
