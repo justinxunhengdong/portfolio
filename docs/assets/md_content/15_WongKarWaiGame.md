@@ -62,7 +62,7 @@ _Every area within this act hides the goal to the next area - first with a movin
 
 I initilly built a version of this level with a different narrative, although I scrapped it after feedback and rebuilt it. While it features some interesting themes that I reused in the subsequent version, I found from feedback that it could be incoherent and didn't hit the right narrative beats, and ultimately took focus away from the character's core conflicts.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K3C2SSsStHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X4S18PZnIDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 _Dev Video 4 shows an early version of Act 1. I loved the cutscene used in this level, but cut it for the sake of the game. The ideas of the city, use of walkways, crowds and lighting were all expanded and edited in the updated version._
 
