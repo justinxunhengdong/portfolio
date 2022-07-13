@@ -7,6 +7,10 @@
 
 _A screenshot of Zero Gravity, highlighting an early puzzle._  
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i8nWfllVrm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_Zero Gravity gameplay._
+
 
 ## Introduction
 Zero Gravity was my submission to the 2021 GMTK Game Jam. The theme for the jam was "Joined Together", which I took in a literal sense. The game explores both the physical and emotional tether between two astronauts as they explore their destroyed space station, in search for an escape pod. The game took much inspiration from a famous scene from the film _Gravity_. As my first game jam, this was a great test of my game development skills, particularly as I had a lack of experience in programming and designing most of the core aspects of the game. The total development time for this game totalled around 25-30 hours for a 48-hour game jam.

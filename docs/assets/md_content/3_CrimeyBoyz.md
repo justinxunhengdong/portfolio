@@ -5,6 +5,10 @@
 
 _Crimey Boyz promotional trailer. I edited this trailer in Adobe Premiere Pro._
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bpgr8_k5X3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_Crimey Boyz gameplay._
+
 ### Synopsis
 Crimey Boyz is a multiplayer game designed and developed for my final-year capstone project. The client was a UQ tutor who wanted a game that could collect data on player behaviour in asymmetric multiplayer games, and, given my experience analysing and developing asymmetric multiplayer in _Rickety Spaceship Simulator_, my team was selected to design and develop such a game. While we were given a design from the course's previous semester (the design given was titled _Slimey Boyz_), we decided to throw most of it out to create a more elegant design. 
 
