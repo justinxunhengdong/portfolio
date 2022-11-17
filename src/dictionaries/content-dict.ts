@@ -51,24 +51,10 @@ export const CONTENTS: Content[] = [
   },
 
   {
-    id: 11,
-    postLocation: 'assets/md_content/12_AColdNight.md',
-    title: 'A Cold Night',
-    img: 'assets/img/thumbnails/coldnight.png'
-  },
-
-  {
     id: 10,
     postLocation: 'assets/md_content/11_ZeroGravity.md',
     title: 'Zero Gravity',
     img: 'assets/img/thumbnails/zerog.png'
-  },
-
-  {
-    id: 9,
-    postLocation: 'assets/md_content/10_MetaHuman.md',
-    title: 'Metahuman',
-    img: 'assets/img/thumbnails/metahuman.png'
   },
 
   {
@@ -119,6 +105,21 @@ export const CONTENTS: Content[] = [
     title: 'Obelisk of Insanity',
     img: 'assets/img/thumbnails/obelisk.png'
   }
+
+  {
+    id: 9,
+    postLocation: 'assets/md_content/10_MetaHuman.md',
+    title: 'Metahuman',
+    img: 'assets/img/thumbnails/metahuman.png'
+  },
+
+
+  {
+    id: 11,
+    postLocation: 'assets/md_content/12_AColdNight.md',
+    title: 'A Cold Night',
+    img: 'assets/img/thumbnails/coldnight.png'
+  },
   */
 ]
 
