@@ -8,7 +8,7 @@ export const FILTERS: Filter[] = [
   { id: 2, name: 'Systems Design', connected: [0, 2, 3, 4], active: true},
   { id: 3, name: 'Gameplay Design', connected: [0, 16, 10, 2, 3, 4], active: true},
   { id: 4, name: 'Video Editing', connected: [3, 4, 6], active: true},
-  { id: 5, name: 'Programming', connected: [1, 3, 4, 7, 8, 9, 10, 11, 16, 15], active: true}//,
-  //{ id: 6, name: 'Archived Project', connected: [], active: false},
+  { id: 5, name: 'Programming', connected: [1, 3, 4, 7, 8, 9, 10, 11, 16, 15], active: true},
+  /*{ id: 6, name: 'Archived Projects', connected: [7,8,9,11], active: false},*/
 ]
 

@@ -3,9 +3,9 @@
 
 [Itch.io page for Cannon Game](https://jdong6.itch.io/cannon-game)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eUOA_rHXhgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwxHwvh5HsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_Cannon Game demo gameplay._
+_The most recent update for Cannon Game following demo and playtest feedback._
 
 ## Introduction
 I often switch projects if I feel like one is stalling, and Cannon Game gave me the opportunity to test and develop a simple arcade game without too much of a time investment. I also felt like my portfolio projects had drifted away from gameplay design and so I used this project as an opportunity to:
@@ -49,6 +49,10 @@ _The spawner that exists in the demo acts on two timers, one which spawns basic 
 ## Reflection
 As someone who can find it difficult to complete projects, I was proud of myself that I stepped outside my comfort zone to practice my coding and design skills for a simple game. I found programming the touch controls in particular extremely difficult - they're still a part of the game that I need to tune and tweak, and will likely be a major factor in the enjoyment of the player. I believe I spent around 5-7 days developing this project, so while I don't think it was the fastest or most productive dev cycle, I learnt a lot by persevering through the more difficult programming problems.
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eUOA_rHXhgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+_Cannon Game demo gameplay._
 
 ![The game scene](./assets/img/md/cannongame/cannon-game-promo.png) 
 

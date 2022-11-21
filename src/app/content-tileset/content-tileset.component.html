@@ -44,8 +44,11 @@
             class="thumbnail"
             [attr.alt]="content.title + ' thumbnail'"
           />
+        </div>
+
+        <span class ="tile-media-caption row">
           <caption class="filter-wrapper">
-            <h4 class="content-title">{{ content.title }}</h4>
+            <h6 class="content-title">{{ content.title }}</h6>
             <span
               class="filters"
               *ngFor="let filter of returnCorrespondingFilters(content)"
@@ -53,7 +56,7 @@
               <div class="chip">{{ filter.name }}</div>
             </span>
           </caption>
-        </div>
+        </span>
       </a>
     </div>
   </div>

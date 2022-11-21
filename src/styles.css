@@ -2,10 +2,11 @@
 
 /*Colours*/
 :root {
-  --colour-main: rgb(216, 99, 49);
+  --colour-main: rgb(207, 73, 75);
   --colour-black: rgb(43, 45, 66);
   --colour-white: rgb(237, 242, 244);
   --colour-secondary: rgb(141, 153, 174);
+  --colour-tertiary: rgb(242, 247, 247);
   --colour-accent: rgb(153, 194, 77);
 
   --colour-main-08: rgba(252, 231, 98, 0.8);
@@ -16,6 +17,7 @@
 
   --colour-main-05: rgba(252, 231, 98, 0.5);
   --colour-black-05: rgba(0, 0, 0, 0.5);
+  --colour-black-02: rgba(0, 0, 0, 0.5);
   --colour-white-05: rgba(255, 255, 255, 0.5);
   --colour-secondary-05: rgba(86, 153, 27, 0.5);
   --colour-accent-05: rgba(255, 90, 95, 0.5);
@@ -50,12 +52,12 @@ font-family: 'Alatsi', sans-serif;
 }
 
 a:hover {
-  text-shadow: 1px 1px var(--colour-black-05) !important;
+  text-shadow: 0.5px 0.5px var(--colour-black-02) !important;
   text-decoration: none;
 }
 
 a:visited {
-  text-shadow: 1px 1px var(--colour-black-05) !important;
+  text-shadow: 1px 1px var(--colour-black-02) !important;
   text-decoration: none;
 }
 

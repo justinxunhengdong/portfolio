@@ -1,9 +1,9 @@
 # Lighthouse Game
 ### Scriping, pacing and storytelling in linear levels
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JPm5c4JZ9RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OdANYcmP6h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_A playthrough of Act 1._
+_A work-in-progress playthrough of the prologue and Act 1._
 
 ## Introduction
 I had the idea for this project after watching through Hong Kong film director Wong Kar-wai's filmography, having wanted to make a project centred around liminal spaces for quite some time. Wong Kar-wai's films are obsessed with liminality; often filled with heartbroken characters who are in transitory periods of their lives, and as someone who was in a transitory period of my own at the time, I wanted to reflect on my own experiences by building a game centred around this idea. The game focuses around the separation of desire and love, and would feature a heartbroken character as they traverse their memories - sometimes abstract, sometimes nostalgic. While the narrative focuses around romantic desire, I wanted the overall themes to be broader, and wanted to avoid making it autobiographical - the suspension of disbelief in many of Wong Kar-wai's films helps allow the themes to hit harder, after all. Having built ambitious, non-linear levels previously, I wanted this project to go back to basics and build levels exclusively around linear, simple navigation.
@@ -117,3 +117,15 @@ _Dev video 6. This shows most of Act 1 with some additional visual changes, and 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JPm5c4JZ9RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 _Dev video 7. I polished some bugs from Dev video 6 and created a feature-complete version of the level, and adjusted the lighting of the first area to be reminiscent of Chungking Express._
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OdANYcmP6h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+_Dev video 8. I stitched together the previous levels to ensure that the game could be played through._
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Er3ODVZURfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_Dev video 9. This was testing the scripting for Act 2_
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eauQoLgfAxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_Dev video 10. Act 2 is playable, but still needs polish._

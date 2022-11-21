@@ -1,9 +1,9 @@
 # Exploring Assassin's Creed
 ### Exploring the level design of Assassin's Creed
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qGI0rnHjLHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GbOwQ5oKo-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_A work-in-progress video of the level after around a week of development time._
+_I updated this level while taking a course in level design - I found that my second attempt was far more confident than the first, and executed upon many of the ideas and techniques from the first with greater precision and intent._
 
 ## Introduction
 The fantasy presented in Assassin's Creed has always fascinated me, but many of the earlier titles, especially _Unity_, failed to resonate with me due to the game's dated open-world design. The early-mid 2010s era of open worlds were often criticised for generic open-world design, and perhaps none so much as Ubisoft - in most titles from _Far Cry_ to _Watch Dogs_, the player would enter a world split up into districts, make their way to a tower to unlock the missions within the district, which would all appear as icons on the minimap. As a consequence, these worlds were often described as repetitive, formulaic, and devoid of true discovery and surprise, which ultimately led into a relaxation of this open-world template, likely due in no small part to the release of _Breath of the Wild_ and _The Witcher 3_.  
@@ -14,7 +14,7 @@ It was my frustration with _Unity_'s lack of readability in its level design and
 
 _I wanted to find a more natural way of displaying abstracted minimap information, as is shown in this screenshot._
 
-My intention for starting this project was also to approach open-world design from a different angle - the nature of sprawling natural landscapes allows for the use of negative space and clearer landmarks, and is what I've explored in various projects including _A Cold Night_. Within the design of landscapes, forests are often used as volumes to completely hide content, due to their density and use of strong rectangular shapes. With this in mind, cities are essentially giant forests. By building a city to be navigated in the same way that an open world would be, I would be essentially relying on completely different compositional techniques to what I was used to. Luckily, I had a small amount of experience building cities in _A Cold Night_, and had a lot of experience exploring cities while travelling alone, and had been thinking about naturalism within open-world design for several years, so I was keen to apply what I had learnt or hypothesised.
+My intention for starting this project was also to approach open-world design from a different angle - the nature of sprawling natural landscapes allows for the use of negative space and clearer landmarks, and is what I've explored in various projects including _A Cold Night_. Cities are far denser, and require different techniques to be able to navigate them. I wanted to explore these techniques using a series of theories I had from travelling in various cities, and research from urban planning.
 
 ![A CEDEC 2017 slide describing compositional techniques in Zelda](./assets/img/md/ac/rectangles-zelda.png)  
 _As shown in this slide from CEDEC describing the design of Breath of the Wild, rectangles are often used to hide objects from sight - a city is essentially full of these._
@@ -143,3 +143,17 @@ _I began to explore different types of structures, such as the one shown here._
 
 ## Insights
 This was a project that I had been planning to explore for years, so I was grateful for the opportunity to finally work on it. I also was surprised about the amount that my initial design (that being, naturalistic traversal of an Assassin's Creed city) changed - I moved away from many of the stylised trappings of my original thoughts, and challenged many of the assumptions I originally had with research and experimentation (such as the efficacy of applying gestalt theory). My experience with previous projects allowed me to have a relatively efficient development process, both from a technical and design perspective.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qGI0rnHjLHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+_A work-in-progress video of the level after around a week of development time._
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5mn0L-ccPS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_I redid the map in a newer version of Unreal Engine for the CGMA Level Design for Games course. I used many of the learnings from the original map for my blockout and design process._
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GbOwQ5oKo-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+_An updated version of the map built for CGMA - this time focused around implementing PENDL and re-integrating parkour gameplay_
+

@@ -91,7 +91,7 @@ export const CONTENTS: Content[] = [
     title: 'Signal',
     img: 'assets/img/thumbnails/signal.png'
   },
-/*
+  /*
   {
     id: 7,
     postLocation: 'assets/md_content/7_Kinesus.md',
@@ -104,7 +104,7 @@ export const CONTENTS: Content[] = [
     postLocation: 'assets/md_content/8_ObeliskOfInsanity.md',
     title: 'Obelisk of Insanity',
     img: 'assets/img/thumbnails/obelisk.png'
-  }
+  },
 
   {
     id: 9,
