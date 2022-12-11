@@ -45,8 +45,8 @@ _I wanted to incorporate many of the techniques I had learnt in this video by Pe
 
  As I progressed further along into the project, I began to use a progress similar to a storyboard or shot list in order to pace out dialogue triggers, scripted sequences, exploration, and the visibility of the environment. I usually like to block out spaces in the editor, but I used paper prototyping for planning levels, story structure and interiors.
 
-![Storyboard](./assets/img/md/lighthouse/storyboarding.png)  
-_My design process for these levels often included a "shot list" of beats I wanted to use. Doing this helped me visualise the pacing of the level while I was making it. Each level follows a simple 3-act structure, as does the game._
+![Storyboard](./assets/img/md/lighthouse/shot-list.png)  
+_My design process for these levels often included a "shot list" of beats I wanted to use. Doing this helped me visualise the pacing of the level while I was making it. Each level follows a simple 3-act structure, as does the game, and this system allowed me to visualise the escalation and development of each visual, narrative, architectural or emotional beat._
 
 #### Prologue - "I find myself here again"
 This level consists of a simple approach towards a lighthouse, some dialogue and visual text triggers, and a cutscene. I wanted a short level and environment to bookend the game, and I used the metaphor of a lighthouse (representing the perceived safety of nostalgia and memory, and the cyclical nature of the story). I iterated on this level quickly, and used it to familiarise myself with the Supergrid plugin. 
@@ -62,9 +62,12 @@ _Every area within this act hides the goal to the next area - first with a movin
 
 I initilly built a version of this level with a different narrative, although I scrapped it after feedback and rebuilt it. While it features some interesting themes that I reused in the subsequent version, I found from feedback that it could be incoherent and didn't hit the right narrative beats, and ultimately took focus away from the character's core conflicts.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X4S18PZnIDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Act 2 - "Distance only grows"
 
-_Dev Video 4 shows an early version of Act 1. I loved the cutscene used in this level, but cut it for the sake of the game. The ideas of the city, use of walkways, crowds and lighting were all expanded and edited in the updated version._
+![Act-2](./assets/img/md/lighthouse/act-2.png)  
+_Act 2 is built around the idea of Yellow walking just out of reach, and had to find increasingly interesting but detailed ways of keeping them out of reach.__
+
+Act 2 is a crucial level to selling the drama of the narrative, and details Blue's increasing anxiety that Yellow would leave him, resulting in self-sabotaging behaviour stemming from his own insecurity, obsession and projection. It's built around increasingly sharper turns and Yellow disappearing from sight in front of the player's eyes, popping up later in the level. I had to polish multiple systems in order to make this section work, as well as pay close attention to the composition of Yellow's path, and how to express emotion through architecture and lighting.  
 
 ### Scripting
 While previous projects' scripting rarely extended beyond dialogue triggers, I was interested to carry over my film editing experience into this project, which uses Unreal Engine's sequencer for more complex scenes involving sound, loading and camerawork. Fortunately, Unreal Engine's sequencer is simple enough to use, and works for both interactive and non-interactive sequences. I also edited the ALS blueprints to allow for AI scripting - most AI within the game follow predetermined paths. This control was important, as the game makes heavy use of crowds to manipulate tone - for instance, to be lonely or claustrophobic.

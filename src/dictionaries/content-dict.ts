@@ -15,6 +15,14 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/lighthouse.png'
   },
 
+
+  {
+    id: 18,
+    postLocation: 'assets/md_content/18_EOTW_OpenWorld.md',
+    title: 'Open World Western',
+    img: 'assets/img/thumbnails/eotw-open-world.png'
+  },
+
   {
     id: 1,
     postLocation: 'assets/md_content/1_ATOOnline.md',
@@ -29,11 +37,12 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/gamifyme.png'
   },
 
+
   {
-    id: 14,
-    postLocation: 'assets/md_content/14_NetflixChapterSelect.md',
-    title: 'Netflix Chapter Select',
-    img: 'assets/img/thumbnails/netflix.png'
+    id: 12,
+    postLocation: 'assets/md_content/13_AssassinsCreed.md',
+    title: "Exploring Assassin's Creed",
+    img: 'assets/img/thumbnails/ac.png'
   },
 
   {
@@ -44,10 +53,10 @@ export const CONTENTS: Content[] = [
   },
 
   {
-    id: 12,
-    postLocation: 'assets/md_content/13_AssassinsCreed.md',
-    title: "Exploring Assassin's Creed",
-    img: 'assets/img/thumbnails/ac.png'
+    id: 14,
+    postLocation: 'assets/md_content/14_NetflixChapterSelect.md',
+    title: 'Netflix Chapter Select',
+    img: 'assets/img/thumbnails/netflix.png'
   },
 
   {
