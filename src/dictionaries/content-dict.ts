@@ -1,12 +1,6 @@
 import { Content } from './datatypes/content-type';
 
 export const CONTENTS: Content[] = [
-  {
-    id: 0,
-    postLocation: 'assets/md_content/0_Halfbrick.md',
-    title: 'Halfbrick Studios',
-    img: 'assets/img/thumbnails/halfbrick.png'
-  },
 
   {
     id: 15,
@@ -21,13 +15,6 @@ export const CONTENTS: Content[] = [
     postLocation: 'assets/md_content/18_EOTW_OpenWorld.md',
     title: 'Open World Western',
     img: 'assets/img/thumbnails/eotw-open-world.png'
-  },
-
-  {
-    id: 1,
-    postLocation: 'assets/md_content/1_ATOOnline.md',
-    title: 'ATO Online',
-    img: 'assets/img/thumbnails/atoo.png'
   },
 
   {
@@ -64,6 +51,20 @@ export const CONTENTS: Content[] = [
     postLocation: 'assets/md_content/11_ZeroGravity.md',
     title: 'Zero Gravity',
     img: 'assets/img/thumbnails/zerog.png'
+  },
+
+  {
+    id: 0,
+    postLocation: 'assets/md_content/0_Halfbrick.md',
+    title: 'Halfbrick Studios',
+    img: 'assets/img/thumbnails/halfbrick.png'
+  },
+
+  {
+    id: 1,
+    postLocation: 'assets/md_content/1_ATOOnline.md',
+    title: 'ATO Online',
+    img: 'assets/img/thumbnails/atoo.png'
   },
 
   {
