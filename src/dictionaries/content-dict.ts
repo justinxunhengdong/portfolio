@@ -1,35 +1,23 @@
 import { Content } from './datatypes/content-type';
 
 export const CONTENTS: Content[] = [
-
+  {
+    id: 19,
+    postLocation: 'assets/md_content/19_LensIsland.md',
+    title: 'Flow Studio: Lens Island',
+    img: 'assets/img/thumbnails/lens-island.png'
+  },
   {
     id: 15,
     postLocation: 'assets/md_content/15_WongKarWaiGame.md',
     title: 'Lighthouse Game',
     img: 'assets/img/thumbnails/lighthouse.png'
   },
-
-
   {
     id: 18,
     postLocation: 'assets/md_content/18_EOTW_OpenWorld.md',
     title: 'Open World Western',
     img: 'assets/img/thumbnails/eotw-open-world.png'
-  },
-
-  {
-    id: 17,
-    postLocation: 'assets/md_content/17_GamifyMe.md',
-    title: 'GamifyMe',
-    img: 'assets/img/thumbnails/gamifyme.png'
-  },
-
-
-  {
-    id: 12,
-    postLocation: 'assets/md_content/13_AssassinsCreed.md',
-    title: "Exploring Assassin's Creed",
-    img: 'assets/img/thumbnails/ac.png'
   },
 
   {
@@ -40,19 +28,25 @@ export const CONTENTS: Content[] = [
   },
 
   {
+    id: 12,
+    postLocation: 'assets/md_content/13_AssassinsCreed.md',
+    title: "Exploring Assassin's Creed",
+    img: 'assets/img/thumbnails/ac.png'
+  },
+
+  {
+    id: 17,
+    postLocation: 'assets/md_content/17_GamifyMe.md',
+    title: 'GamifyMe',
+    img: 'assets/img/thumbnails/gamifyme.png'
+  },
+
+  {
     id: 14,
     postLocation: 'assets/md_content/14_NetflixChapterSelect.md',
     title: 'Netflix Chapter Select',
     img: 'assets/img/thumbnails/netflix.png'
   },
-
-  {
-    id: 10,
-    postLocation: 'assets/md_content/11_ZeroGravity.md',
-    title: 'Zero Gravity',
-    img: 'assets/img/thumbnails/zerog.png'
-  },
-
   {
     id: 0,
     postLocation: 'assets/md_content/0_Halfbrick.md',
@@ -74,7 +68,16 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/eotw_thumbnail.png'
   },
 
+
+  /*
   {
+    {
+    id: 10,
+    postLocation: 'assets/md_content/11_ZeroGravity.md',
+    title: 'Zero Gravity',
+    img: 'assets/img/thumbnails/zerog.png'
+  },
+    {
     id: 3,
     postLocation: 'assets/md_content/3_CrimeyBoyz.md',
     title: 'Crimey Boyz',
@@ -101,8 +104,6 @@ export const CONTENTS: Content[] = [
     title: 'Signal',
     img: 'assets/img/thumbnails/signal.png'
   },
-  /*
-  {
     id: 7,
     postLocation: 'assets/md_content/7_Kinesus.md',
     title: 'Kinesus',
