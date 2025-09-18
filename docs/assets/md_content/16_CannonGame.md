@@ -1,9 +1,7 @@
 # Cannon Game
 ### A mobile arcade game
 
-[Itch.io page for Cannon Game](https://jdong6.itch.io/cannon-game)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EwxHwvh5HsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9nmBE_CSDRo?si=99DSZudBLLYXHTg5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 _The most recent update for Cannon Game following demo and playtest feedback._
 

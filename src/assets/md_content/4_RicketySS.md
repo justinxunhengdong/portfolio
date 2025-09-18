@@ -1,4 +1,4 @@
-# Rickety Spaceship Simulator
+	# Rickety Spaceship Simulator
 ### An asymmetric multiplayer team-building game
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZGRqfbvwY6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

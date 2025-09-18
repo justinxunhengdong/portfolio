@@ -1,11 +1,59 @@
 import { Content } from './datatypes/content-type';
 
 export const CONTENTS: Content[] = [
+
+  {
+    id: 21,
+    postLocation: 'assets/md_content/21_HW_Golf.md',
+    title: 'Horizon Worlds: Smash Golf',
+    img: 'assets/img/thumbnails/hw-golf.png'
+  },
+  {
+    id: 20,
+    postLocation: 'assets/md_content/20_HW_Survive.md',
+    title: 'Horizon Worlds: Survive',
+    img: 'assets/img/thumbnails/hw-survive.png'
+  },
+  {
+    id: 22,
+    postLocation: 'assets/md_content/22_CharacterController.md',
+    title: 'Third-Person Character',
+    img: 'assets/img/thumbnails/ccc.png'
+  },
   {
     id: 19,
     postLocation: 'assets/md_content/19_LensIsland.md',
     title: 'Flow Studio: Lens Island',
     img: 'assets/img/thumbnails/lens-island.png'
+  },
+  {
+    id: 16,
+    postLocation: 'assets/md_content/16_CannonGame.md',
+    title: "Cannon Game",
+    img: 'assets/img/thumbnails/cannongame.png'
+  },
+  {
+    id: 1,
+    postLocation: 'assets/md_content/1_ATOOnline.md',
+    title: 'ATO Online',
+    img: 'assets/img/thumbnails/atoo.png'
+  },
+
+
+
+  /*
+  //Archived
+  {
+    id: 5,
+    postLocation: 'assets/md_content/5_BHBR.md',
+    title: 'Better Habits Battle Royale',
+    img: 'assets/img/thumbnails/xd_prototype.png'
+  },
+  {
+    id: 2,
+    postLocation: 'assets/md_content/2_EOTW.md',
+    title: 'At the Edge of the West',
+    img: 'assets/img/thumbnails/eotw_thumbnail.png'
   },
   {
     id: 15,
@@ -14,62 +62,35 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/lighthouse.png'
   },
   {
-    id: 18,
-    postLocation: 'assets/md_content/18_EOTW_OpenWorld.md',
-    title: 'Open World Western',
-    img: 'assets/img/thumbnails/eotw-open-world.png'
-  },
-
-  {
-    id: 16,
-    postLocation: 'assets/md_content/16_CannonGame.md',
-    title: "Cannon Game",
-    img: 'assets/img/thumbnails/cannongame.png'
-  },
-
-  {
     id: 12,
     postLocation: 'assets/md_content/13_AssassinsCreed.md',
     title: "Exploring Assassin's Creed",
     img: 'assets/img/thumbnails/ac.png'
   },
-
+  {
+    id: 18,
+    postLocation: 'assets/md_content/18_EOTW_OpenWorld.md',
+    title: 'Open World Western',
+    img: 'assets/img/thumbnails/eotw-open-world.png'
+  },
   {
     id: 17,
     postLocation: 'assets/md_content/17_GamifyMe.md',
     title: 'GamifyMe',
     img: 'assets/img/thumbnails/gamifyme.png'
-  },
-
-  {
-    id: 14,
-    postLocation: 'assets/md_content/14_NetflixChapterSelect.md',
-    title: 'Netflix Chapter Select',
-    img: 'assets/img/thumbnails/netflix.png'
-  },
+  }
   {
     id: 0,
     postLocation: 'assets/md_content/0_Halfbrick.md',
     title: 'Halfbrick Studios',
     img: 'assets/img/thumbnails/halfbrick.png'
   },
-
   {
-    id: 1,
-    postLocation: 'assets/md_content/1_ATOOnline.md',
-    title: 'ATO Online',
-    img: 'assets/img/thumbnails/atoo.png'
+    id: 14,
+    postLocation: 'assets/md_content/14_NetflixChapterSelect.md',
+    title: 'Netflix Chapter Select',
+    img: 'assets/img/thumbnails/netflix.png'
   },
-
-  {
-    id: 2,
-    postLocation: 'assets/md_content/2_EOTW.md',
-    title: 'At the Edge of the West',
-    img: 'assets/img/thumbnails/eotw_thumbnail.png'
-  },
-
-
-  /*
   {
     {
     id: 10,
@@ -91,12 +112,7 @@ export const CONTENTS: Content[] = [
     img: 'assets/img/thumbnails/cinematic.png'
   },
 
-  {
-    id: 5,
-    postLocation: 'assets/md_content/5_BHBR.md',
-    title: 'Better Habits Battle Royale',
-    img: 'assets/img/thumbnails/xd_prototype.png'
-  },
+
 
   {
     id: 6,
