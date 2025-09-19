@@ -15,7 +15,6 @@ I often switch projects if I feel like one is stalling, and Cannon Game gave me 
 
 Coding most of these things was outside my comfort zone, so while I used techniques that I had picked up from my previous Unity projects, I knew that the project's delivery would be slowed down by having to both code and design the game's rules.
 
-
 ![The game scene](./assets/img/md/cannongame/scene.png)  
 
 ## Core Gameplay
@@ -29,7 +28,6 @@ The initial concept of the game involved shooting a cannon ball at enemies from 
 
 I programmed the cannon and physics behaviour of the cannonball, and then progressively iterated upon the effects and juice in order to make the act of shooting and destroying enemies satisfying, which involved using the particle editor, sounds, and animator, which I had little experience of. Many core features expanded from this process, such as a burn mark that would appear on a missed shot (which also acts as an indicator for lining up the next shot), an AOE blast that expands from the point of impact, and the combo system, which rewards consecutive hits. 
 
-
 ![The cannonball prefab](./assets/img/md/cannongame/cannonball.png)  
 _The perspective of the camera posed some challenges with the cannonball - I played around with the cannonball's physical hitbox in order to prevent some frustration with flying enemies._
 
@@ -42,6 +40,7 @@ The spawner was one of the biggest ambiguities in terms of complexity - having d
 
 
 ![The spawner's inspector settings](./assets/img/md/cannongame/spawner.png)  
+
 _The spawner that exists in the demo acts on two timers, one which spawns basic enemies, and one that spawns rarer enemies. These are also gated - new enemies only get added to the pool based on the elapsed time._
 
 ## Reflection

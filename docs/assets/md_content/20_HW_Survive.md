@@ -17,7 +17,7 @@ We knew from our data that the parkour sections were huge drop-off points, and s
 ![Original Spire](./assets/img/md/hws/4-original-spire.png)  
 _The original spire lacked identity and grandiosity, and stuck out visually._  
 
-![New Spire](./assets/img/md/cannongame/1-dawn-isle-aerial.png)  
+![New Spire](./assets/img/md/hws/1-dawn-isle-aerial.png)  
 _The new spire had a more enticing layout and stronger visual theming._  
 
 * De-emphasising parkour -> I focused levels around traversal and exploration challenges rather than skill,
