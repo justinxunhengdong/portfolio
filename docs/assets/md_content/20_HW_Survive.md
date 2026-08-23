@@ -11,19 +11,20 @@ _The Dawn Isle map at launch._
 
 When we initially launched in early access, our data showed that the parkour sections were losing huge amounts of players. I redesigned these parts of the map, while also needing to balance an unproven pipeline, ambitious changes, strict polygon counts, and a regular update cadence. Level design was a discipline which the rest of the design team had limited experience, so I took the initiative to push and convince other deveopers of the issues I saw. 
 
-We knew from our data that the parkour sections were huge drop-off points, and solved many interesting design problems, including:
-
-
 ![Original Spire](./assets/img/md/hws/4-original-spire.png)  
+
 _The original spire lacked identity and grandiosity, and stuck out visually._  
 
 ![New Spire](./assets/img/md/hws/1-dawn-isle-aerial.png)  
+
 _The new spire had a more enticing layout and stronger visual theming._  
+
+We knew from our data that the parkour sections were huge drop-off points, and solved many interesting design problems, including:
 
 * De-emphasising parkour -> I focused levels around traversal and exploration challenges rather than skill,
 * Increasing map cohesion -> using a similar shape language and size to non-parkour areas,
 * Improving theming -> working collaboratively with the art team - previously, textureless blockouts were interpreted separately by the art team.
-* Improving pipeline and iteration speeds -> I used both Unity and Horizon Worlds, 
+* Improving pipeline and iteration speeds -> I used both Unity and Horizon Worlds, whereas previously our asset pipeline was siloed. I became the bridge between the design, art and programming teams by handling the demo pipeline.
 * Communicating entity positions and dependencies -> I developed a detailed map that could be referenced by other departments, minimising design integration errors,  
 
 ![Coves](./assets/img/md/hws/2-cove.png)
@@ -33,6 +34,11 @@ _The new spire had a more enticing layout and stronger visual theming._
 _The cove and waterfall areas were a significant a collaborative effort from both designers and artists._
 
 The resulting map changes were a huge improvement to the game, which was reflected in our data and heatmap. Crucially, it also gave me the experience and trust I needed on my next project (_Horizon Worlds: Smash Golf_), for which I led the level design.
+
+![Map documentation](./assets/img/md/hws/map-doco-1.png)
+![Map documentation](./assets/img/md/hws/map-doco-2.png)
+
+I documented changes to maps and their layouts to help other team members have a reliable source of truth.
 
 ## Other Responsibilities
 

@@ -3,8 +3,8 @@ import { Content } from './datatypes/content-type';
 import { CONTENTS } from './content-dict';
 
 export const FILTERS: Filter[] = [
-  { id: 0, name: 'Professional Projects', connected: [1, 19, 20, 21], active: true },
-  { id: 1, name: 'Personal Projects', connected: [22, 16], active: true },
+  { id: 0, name: 'Professional Projects', connected: [1, 19, 20, 21, 24], active: true },
+  { id: 1, name: 'Personal Projects', connected: [22, 16, 25], active: true },
 
   // { id: 2, name: 'Archived', connected: [5, 2, 15, 12, 18, 17], active: false }
   // { id: 0, name: 'UX Design', connected: [1, 2, 3, 4, 5, 14, 17, 19], active: true},

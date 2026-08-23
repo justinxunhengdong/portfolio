@@ -1,7 +1,18 @@
 import { Content } from './datatypes/content-type';
 
 export const CONTENTS: Content[] = [
-
+  {
+    id: 25,
+    postLocation: 'assets/md_content/25_DaylightRobberies.md',
+    title: 'Daylight Robberies',
+    img: 'assets/img/thumbnails/daylight-robberies.png'
+  },
+  {
+    id: 24,
+    postLocation: 'assets/md_content/24_Mobile.md',
+    title: 'Playside Mobile',
+    img: 'assets/img/thumbnails/ps-mobile.png'
+  },
   {
     id: 21,
     postLocation: 'assets/md_content/21_HW_Golf.md',
@@ -31,13 +42,7 @@ export const CONTENTS: Content[] = [
     postLocation: 'assets/md_content/16_CannonGame.md',
     title: "Cannon Game",
     img: 'assets/img/thumbnails/cannongame.png'
-  },
-  {
-    id: 1,
-    postLocation: 'assets/md_content/1_ATOOnline.md',
-    title: 'ATO Online',
-    img: 'assets/img/thumbnails/atoo.png'
-  },
+  }
 
 
 
